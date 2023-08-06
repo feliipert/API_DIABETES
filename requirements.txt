@@ -1,0 +1,11 @@
+numpy==1.25.2
+pandas
+scikit-learn
+streamlit
+seaborn
+matplotlib
+Pillow==10.0.0
+Flask
+gunicorn
+uvicorn
+fastapi
