@@ -1,2 +1,4 @@
+_pychache_
 venv
-_pycache
+.idea/
+startup.sh

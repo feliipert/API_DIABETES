@@ -37,3 +37,9 @@ def predict(request: dict):
     except Exception as e:
         raise HTTPException(status_code=500, detail='Error during prediction')
 
+    if __name__ == "__main__":
+        import uvicorn
+        # Especifica el puerto en el que deseas ejecutar la API (por ejemplo, 8000)
+        # Cambia el parámetro 'port' según tus necesidades
+        uvicorn.run(app, host="0.0.0.0", port=8000)
+
